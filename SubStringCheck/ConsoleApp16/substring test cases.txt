@@ -1,0 +1,13 @@
+Test case:1 the second string which is substring to the first one should not have length greater than the first string.
+if it is give like this the output should return invalid input
+
+Test case:2 if the substring or the 2nd string is not substring of the first string then output should return count as 0
+ times and index positions is NULL
+
+Test case:3 : If the substring is present in the main string then output should return the count or number of times the 
+substring occur in main strinng and also return the index positions where the substring occurs in the main string
+
+
+
+
+
