@@ -1,0 +1,8 @@
+C:\Users\Vamsi Ayiluri\source\repos\FloatToBinaryConversion\FloatToBinaryConversion\bin\Debug\FloatToBinaryConversion.exe.config
+C:\Users\Vamsi Ayiluri\source\repos\FloatToBinaryConversion\FloatToBinaryConversion\bin\Debug\FloatToBinaryConversion.exe
+C:\Users\Vamsi Ayiluri\source\repos\FloatToBinaryConversion\FloatToBinaryConversion\bin\Debug\FloatToBinaryConversion.pdb
+C:\Users\Vamsi Ayiluri\source\repos\FloatToBinaryConversion\FloatToBinaryConversion\obj\Debug\FloatToBinaryConversion.csproj.AssemblyReference.cache
+C:\Users\Vamsi Ayiluri\source\repos\FloatToBinaryConversion\FloatToBinaryConversion\obj\Debug\FloatToBinaryConversion.csproj.SuggestedBindingRedirects.cache
+C:\Users\Vamsi Ayiluri\source\repos\FloatToBinaryConversion\FloatToBinaryConversion\obj\Debug\FloatToBinaryConversion.csproj.CoreCompileInputs.cache
+C:\Users\Vamsi Ayiluri\source\repos\FloatToBinaryConversion\FloatToBinaryConversion\obj\Debug\FloatToBinaryConversion.exe
+C:\Users\Vamsi Ayiluri\source\repos\FloatToBinaryConversion\FloatToBinaryConversion\obj\Debug\FloatToBinaryConversion.pdb
