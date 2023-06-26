@@ -1,0 +1,15 @@
+C:\Users\Vamsi Ayiluri\source\repos\IsAsFunctionality\IsAsFunctionality\bin\Debug\net6.0\IsAsFunctionality.exe
+C:\Users\Vamsi Ayiluri\source\repos\IsAsFunctionality\IsAsFunctionality\bin\Debug\net6.0\IsAsFunctionality.deps.json
+C:\Users\Vamsi Ayiluri\source\repos\IsAsFunctionality\IsAsFunctionality\bin\Debug\net6.0\IsAsFunctionality.runtimeconfig.json
+C:\Users\Vamsi Ayiluri\source\repos\IsAsFunctionality\IsAsFunctionality\bin\Debug\net6.0\IsAsFunctionality.dll
+C:\Users\Vamsi Ayiluri\source\repos\IsAsFunctionality\IsAsFunctionality\bin\Debug\net6.0\IsAsFunctionality.pdb
+C:\Users\Vamsi Ayiluri\source\repos\IsAsFunctionality\IsAsFunctionality\obj\Debug\net6.0\IsAsFunctionality.csproj.AssemblyReference.cache
+C:\Users\Vamsi Ayiluri\source\repos\IsAsFunctionality\IsAsFunctionality\obj\Debug\net6.0\IsAsFunctionality.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vamsi Ayiluri\source\repos\IsAsFunctionality\IsAsFunctionality\obj\Debug\net6.0\IsAsFunctionality.AssemblyInfoInputs.cache
+C:\Users\Vamsi Ayiluri\source\repos\IsAsFunctionality\IsAsFunctionality\obj\Debug\net6.0\IsAsFunctionality.AssemblyInfo.cs
+C:\Users\Vamsi Ayiluri\source\repos\IsAsFunctionality\IsAsFunctionality\obj\Debug\net6.0\IsAsFunctionality.csproj.CoreCompileInputs.cache
+C:\Users\Vamsi Ayiluri\source\repos\IsAsFunctionality\IsAsFunctionality\obj\Debug\net6.0\IsAsFunctionality.dll
+C:\Users\Vamsi Ayiluri\source\repos\IsAsFunctionality\IsAsFunctionality\obj\Debug\net6.0\refint\IsAsFunctionality.dll
+C:\Users\Vamsi Ayiluri\source\repos\IsAsFunctionality\IsAsFunctionality\obj\Debug\net6.0\IsAsFunctionality.pdb
+C:\Users\Vamsi Ayiluri\source\repos\IsAsFunctionality\IsAsFunctionality\obj\Debug\net6.0\IsAsFunctionality.genruntimeconfig.cache
+C:\Users\Vamsi Ayiluri\source\repos\IsAsFunctionality\IsAsFunctionality\obj\Debug\net6.0\ref\IsAsFunctionality.dll
