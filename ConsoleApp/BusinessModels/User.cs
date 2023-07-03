@@ -1,7 +1,7 @@
 ﻿namespace BusinessModels
 {
     /// <summary>
-    /// This class contains users properties like Username,password,Email
+    /// This class contains user properties like Username,password,Email
     /// </summary>
     public class User
     {

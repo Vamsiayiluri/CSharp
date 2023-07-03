@@ -15,11 +15,24 @@
       "DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DataModels": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/DAL.dll": {}
         },
         "runtime": {
           "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "DataModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DataModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataModels.dll": {}
         }
       }
     }
@@ -34,6 +47,11 @@
       "type": "project",
       "path": "../DataLayer/DAL.csproj",
       "msbuildProject": "../DataLayer/DAL.csproj"
+    },
+    "DataModels/1.0.0": {
+      "type": "project",
+      "path": "../DataModels/DataModels.csproj",
+      "msbuildProject": "../DataModels/DataModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -48,11 +66,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vamsi Ayiluri\\source\\repos\\ConsoleApp\\BusinessLayer\\BAL.csproj",
+      "projectUniqueName": "C:\\Users\\Vamsi Ayiluri\\Git_Repos\\CSharp\\ConsoleApp\\BusinessLayer\\BAL.csproj",
       "projectName": "BAL",
-      "projectPath": "C:\\Users\\Vamsi Ayiluri\\source\\repos\\ConsoleApp\\BusinessLayer\\BAL.csproj",
+      "projectPath": "C:\\Users\\Vamsi Ayiluri\\Git_Repos\\CSharp\\ConsoleApp\\BusinessLayer\\BAL.csproj",
       "packagesPath": "C:\\Users\\Vamsi Ayiluri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vamsi Ayiluri\\source\\repos\\ConsoleApp\\BusinessLayer\\obj\\",
+      "outputPath": "C:\\Users\\Vamsi Ayiluri\\Git_Repos\\CSharp\\ConsoleApp\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vamsi Ayiluri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,11 +87,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Vamsi Ayiluri\\source\\repos\\ConsoleApp\\BusinessModels\\BusinessModels.csproj": {
-              "projectPath": "C:\\Users\\Vamsi Ayiluri\\source\\repos\\ConsoleApp\\BusinessModels\\BusinessModels.csproj"
+            "C:\\Users\\Vamsi Ayiluri\\Git_Repos\\CSharp\\ConsoleApp\\BusinessModels\\BusinessModels.csproj": {
+              "projectPath": "C:\\Users\\Vamsi Ayiluri\\Git_Repos\\CSharp\\ConsoleApp\\BusinessModels\\BusinessModels.csproj"
             },
-            "C:\\Users\\Vamsi Ayiluri\\source\\repos\\ConsoleApp\\DataLayer\\DAL.csproj": {
-              "projectPath": "C:\\Users\\Vamsi Ayiluri\\source\\repos\\ConsoleApp\\DataLayer\\DAL.csproj",
+            "C:\\Users\\Vamsi Ayiluri\\Git_Repos\\CSharp\\ConsoleApp\\DataLayer\\DAL.csproj": {
+              "projectPath": "C:\\Users\\Vamsi Ayiluri\\Git_Repos\\CSharp\\ConsoleApp\\DataLayer\\DAL.csproj",
               "privateAssets": "all"
             }
           }

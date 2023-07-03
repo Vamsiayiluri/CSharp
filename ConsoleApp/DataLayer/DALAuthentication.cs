@@ -1,5 +1,5 @@
 ﻿using BusinessModels;
-using System;
+using DataModels;
 
 namespace DataLayer
 {
@@ -15,9 +15,9 @@ namespace DataLayer
         /// <param name="password"></param>
         /// <param name="email"></param>
         /// <returns></returns>
-        public void AddData(User userObj)
-        {
-            DataSource.data.Add(new User { Username = userObj.Username, Password = userObj.Password, Email = userObj.Email });
+        public void AddData(BusinessModels.User userObj)
+        {           
+            DataSource.data.Add(new DataModels.User { Username = userObj.Username, Password = userObj.Password, Email = userObj.Email });
         }
 
         /// <summary>
@@ -26,9 +26,9 @@ namespace DataLayer
         /// <param name="username"></param>
         /// <param name="password"></param>
         /// <returns></returns>
-        public bool ValidateLogin(User userObj)
+        public bool ValidateLogin(BusinessModels.User userObj)
         {
-            User user = DataSource.data.Find(user => user.Username == userObj.Username);
+            DataModels.User user = DataSource.data.Find(user => user.Username == userObj.Username);
             if (user != null && user.Password == userObj.Password)
             {
                 return true;
@@ -40,9 +40,9 @@ namespace DataLayer
         /// </summary>
         /// <param name="newUser"></param>
         /// <returns></returns>
-        public bool ValidateUser(User userObj)
+        public bool ValidateUser(BusinessModels.User userObj)
         {
-            User user = DataSource.data.Find(user => user.Username == userObj.Username);
+            DataModels.User user = DataSource.data.Find(user => user.Username == userObj.Username);
             if (user != null && user.Email == userObj.Email)
             {
                 return true;
@@ -54,9 +54,9 @@ namespace DataLayer
         /// </summary>
         /// <param name="newUser"></param>
         /// <returns></returns>
-        public void UpdatePassword(User userObj)
+        public void UpdatePassword(BusinessModels.User userObj)
         {
-            User user = DataSource.data.Find(user => user.Username == userObj.Username);
+            DataModels.User user = DataSource.data.Find(user => user.Username == userObj.Username);
             if (user != null )
             {
                 user.Password = userObj.Password;
@@ -70,7 +70,7 @@ namespace DataLayer
         /// <returns></returns>
         public bool ValidateUsername(string Username)
         {
-            User user = DataSource.data.Find(user => user.Username == Username);
+            DataModels.User user = DataSource.data.Find(user => user.Username == Username);
             if (user != null )
             {
                 return false;

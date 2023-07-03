@@ -21,8 +21,16 @@
         }
       },
       "DAL/1.0.0": {
+        "dependencies": {
+          "DataModels": "1.0.0"
+        },
         "runtime": {
           "DAL.dll": {}
+        }
+      },
+      "DataModels/1.0.0": {
+        "runtime": {
+          "DataModels.dll": {}
         }
       }
     }
@@ -39,6 +47,11 @@
       "sha512": ""
     },
     "DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

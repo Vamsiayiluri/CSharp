@@ -1,4 +1,4 @@
-﻿using BusinessModels;
+﻿using DataModels;
 
 namespace DataLayer
 {

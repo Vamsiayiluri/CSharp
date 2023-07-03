@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vamsi Ayiluri\\source\\repos\\ConsoleApp\\BusinessModels\\BusinessModels.csproj": {}
+    "C:\\Users\\Vamsi Ayiluri\\Git_Repos\\CSharp\\ConsoleApp\\BusinessModels\\BusinessModels.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vamsi Ayiluri\\source\\repos\\ConsoleApp\\BusinessModels\\BusinessModels.csproj": {
+    "C:\\Users\\Vamsi Ayiluri\\Git_Repos\\CSharp\\ConsoleApp\\BusinessModels\\BusinessModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vamsi Ayiluri\\source\\repos\\ConsoleApp\\BusinessModels\\BusinessModels.csproj",
+        "projectUniqueName": "C:\\Users\\Vamsi Ayiluri\\Git_Repos\\CSharp\\ConsoleApp\\BusinessModels\\BusinessModels.csproj",
         "projectName": "BusinessModels",
-        "projectPath": "C:\\Users\\Vamsi Ayiluri\\source\\repos\\ConsoleApp\\BusinessModels\\BusinessModels.csproj",
+        "projectPath": "C:\\Users\\Vamsi Ayiluri\\Git_Repos\\CSharp\\ConsoleApp\\BusinessModels\\BusinessModels.csproj",
         "packagesPath": "C:\\Users\\Vamsi Ayiluri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vamsi Ayiluri\\source\\repos\\ConsoleApp\\BusinessModels\\obj\\",
+        "outputPath": "C:\\Users\\Vamsi Ayiluri\\Git_Repos\\CSharp\\ConsoleApp\\BusinessModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vamsi Ayiluri\\AppData\\Roaming\\NuGet\\NuGet.Config",
