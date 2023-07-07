@@ -25,9 +25,18 @@ namespace DataLayer
     //        };
     //    }
     //}
-
+    /// <summary>
+    /// This generic class contains ModelConverter method that converts one model object to another model object
+    /// </summary>
+    /// <typeparam name="T1"></typeparam>
+    /// <typeparam name="T2"></typeparam>
     public static class ModelConverter<T1, T2> where T2:new()
     {
+        /// <summary>
+        /// This generic method takes source object as parameter and converts to destination object by assigning properties of source object to destination object
+        /// </summary>
+        /// <param name="userobj"></param>
+        /// <returns></returns>
         public static T2 ConvertToRequiredModel(T1 userobj)
         {
             //var config = new MapperConfiguration(cfg => cfg.CreateMap<T1, T2>());
@@ -50,7 +59,6 @@ namespace DataLayer
                     var value = property.GetValue(userobj);
                     destinationProperty.SetValue(requiredModel, value);
                 }
-
 
             }
 

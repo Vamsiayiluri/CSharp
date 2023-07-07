@@ -19,7 +19,7 @@ namespace ConsoleApp
             GetData = 5
         }
         /// <summary>
-        /// The main method will create objects and validate the input and call the appropriate login,signup,forgot password methods
+        /// The main method will create objects and validate the input and call the appropriate login,signup,forgot password,get Data methods
         /// </summary>
         public static void Main()
         {

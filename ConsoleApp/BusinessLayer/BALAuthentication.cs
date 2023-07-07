@@ -35,7 +35,7 @@ namespace BusinessLayer
             return isCorrect;
         }
         /// <summary>
-        /// This method will allow user to
+        /// This method will allow user to call ValidateUser method to validate the user details 
         /// </summary>
         /// <returns></returns>
         public bool ForgotPassword(User userObj)
@@ -46,13 +46,21 @@ namespace BusinessLayer
             return isCorrect;
 
         }
-
+        /// <summary>
+        /// This method will update the password 
+        /// </summary>
+        /// <param name="userObj"></param>
         public void UpdatePassword(User userObj)
         {
             IDALAuthentication idalobj = dataLogicFactory.GetDALAuthobj();
             idalobj.UpdatePassword(userObj);
         }
 
+        /// <summary>
+        /// This method will get user obect with assigned values for particular username
+        /// </summary>
+        /// <param name="username"></param>
+        /// <returns></returns>
         public User GetData(string username)
         {          
             IDALAuthentication idalobj = dataLogicFactory.GetDALAuthobj();

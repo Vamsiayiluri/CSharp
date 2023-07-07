@@ -153,6 +153,9 @@ namespace ConsoleApp
             Environment.Exit(0);
         }
 
+        /// <summary>
+        /// This method will take username from the user and get details of the user through user object
+        /// </summary>
         public void GetData()
         {
             User userObj = new User();
@@ -174,14 +177,11 @@ namespace ConsoleApp
                 inputOutput.Display(Literals.email1);
                 inputOutput.Display(user.Email);
             }
-
             catch (Exception e)
             {
                 inputOutput.Display(Literals.InvalidUsername);
 
             }
-
-
         }
     }
 }

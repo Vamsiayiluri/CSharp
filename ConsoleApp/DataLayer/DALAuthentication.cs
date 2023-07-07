@@ -79,6 +79,11 @@ namespace DataLayer
             }
             return true;           
         }
+        /// <summary>
+        /// This method takes username and return user object of that username  which contain all the user properties values
+        /// </summary>
+        /// <param name="username"></param>
+        /// <returns></returns>
 
         public BusinessModels.User GetData(string username)
         {           
