@@ -1,5 +1,6 @@
 ﻿using BusinessModels;
 using DataModels;
+using AutoMapper;
 
 namespace DataLayer
 {
@@ -16,8 +17,9 @@ namespace DataLayer
         /// <param name="email"></param>
         /// <returns></returns>
         public void AddData(BusinessModels.User userObj)
-        {           
-            DataSource.data.Add(new DataModels.User { Username = userObj.Username, Password = userObj.Password, Email = userObj.Email });
+        {
+            DataModels.User datauserobj = ModelConverter<BusinessModels.User, DataModels.User>.ConvertToRequiredModel(userObj);
+            DataSource.data.Add(datauserobj);
         }
 
         /// <summary>
@@ -77,5 +79,14 @@ namespace DataLayer
             }
             return true;           
         }
-    }
+
+        public BusinessModels.User GetData(string username)
+        {           
+            DataModels.User user = DataSource.data.Find(user => user.Username == username);
+            
+            BusinessModels.User businessuserobj = ModelConverter<DataModels.User,BusinessModels.User>.ConvertToRequiredModel(user);
+            
+            return businessuserobj;
+        }
+    }    
 }

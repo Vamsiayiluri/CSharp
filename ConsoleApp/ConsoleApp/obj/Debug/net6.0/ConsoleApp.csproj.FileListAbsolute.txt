@@ -44,3 +44,4 @@ C:\Users\Vamsi Ayiluri\Git_Repos\CSharp\ConsoleApp\ConsoleApp\obj\Debug\net6.0\r
 C:\Users\Vamsi Ayiluri\Git_Repos\CSharp\ConsoleApp\ConsoleApp\obj\Debug\net6.0\ConsoleApp.pdb
 C:\Users\Vamsi Ayiluri\Git_Repos\CSharp\ConsoleApp\ConsoleApp\obj\Debug\net6.0\ConsoleApp.genruntimeconfig.cache
 C:\Users\Vamsi Ayiluri\Git_Repos\CSharp\ConsoleApp\ConsoleApp\obj\Debug\net6.0\ref\ConsoleApp.dll
+C:\Users\Vamsi Ayiluri\Git_Repos\CSharp\ConsoleApp\ConsoleApp\bin\Debug\net6.0\AutoMapper.dll

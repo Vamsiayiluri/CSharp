@@ -5,7 +5,7 @@
     /// </summary>
     public static class Literals
     {
-        public static string selectInput = "Select 1 or 2 or 3 or 4 from the given options: 1.SignUp 2.Login 3.Forgot password 4.Exit";
+        public static string selectInput = "Select 1 or 2 or 3 or 4 or 5 from the given options: 1.SignUp 2.Login 3.Forgot password 4.Exit 5.GetData";
         public static string ContinueOrExit = "Do you want to continue :Yes/No";
         public static string username = "Enter your username  : ";
         public static string validUsername = "User already exists,Enter valid username: ";
@@ -22,5 +22,10 @@
         public static string passwordUpdateSuccess = "Your password updated successfully ";
         public static string invalidDetails = "Invalid Details";
         public static string validOption = "Please select from the given options";
+        public static string username1 = "Username :";
+        public static string password1 = "Password :";
+        public static string email1 = "Email :";
+        public static string InvalidUsername = "Invalid Username";
+
     }
 }

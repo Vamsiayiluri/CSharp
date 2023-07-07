@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "3H77KMIBPrBsGGw3POKNLq1/Lsx0bQsIo58ChEg8SEvMA0Cm8lWRHJtJ5LXQDgViEy+K25S7MJ+SZiog6wLZCw==",
+  "dgSpecHash": "ePrUFye1Yy+O0El9zetyOydyrB15/fu86Qa0W+ubzlGG8Gcf3QRcjXL7WHVW0av6vEV1GsHN3SkQwQapzUaG7w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vamsi Ayiluri\\Git_Repos\\CSharp\\ConsoleApp\\BusinessLayer\\BAL.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Vamsi Ayiluri\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\Vamsi Ayiluri\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

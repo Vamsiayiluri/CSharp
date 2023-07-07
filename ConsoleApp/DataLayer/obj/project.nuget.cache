@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Z+9rOQJ9ebKeEr8PAa59giQQ7AUp0WK31BO5KWJSyPIHsJqHWSeSM1cvs6jG6R3LX+paaE1NaMKfRD0TYQ9y+A==",
+  "dgSpecHash": "XYUBfW/glWgNKtWcjeccH4bAyY3++fiVGEw+ouIMd/0zAlzrxr1DCb8gWLDoYR3lmHAaTIWh45LaUZRTjJzNsg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vamsi Ayiluri\\Git_Repos\\CSharp\\ConsoleApp\\DataLayer\\DAL.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Vamsi Ayiluri\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\Vamsi Ayiluri\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

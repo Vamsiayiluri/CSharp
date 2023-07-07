@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "dKEwnBvUNfcaTZFgkdhs+GMnSFthXjNwFOgceP9zJWOOnLvh+wiWwa1JQ1ijgjxd35qFcV51+BKpQmJiZJqfJQ==",
+  "dgSpecHash": "lvMJ57rk1AKxR9DOz2YQQ17E4kHuk9PxDw+A+V7Ges8hTOH8S44CF1NzFN095lMEOGIDfxxsnBTcAYRIJ9fB5A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vamsi Ayiluri\\Git_Repos\\CSharp\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Vamsi Ayiluri\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\Vamsi Ayiluri\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

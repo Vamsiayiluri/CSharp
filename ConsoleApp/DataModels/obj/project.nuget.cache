@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "V+I6c6TTVbiRWmWf9wqPZogXjPsquYK50pjo1tczL/oTkALUJBi5InVyi4ys+VF+qZqEBuIMw7nuvrL3DzzPdA==",
+  "dgSpecHash": "U0+N0iVsaWf9Gx9rLINiIAqb26kO88IR6CJ6sl8scImLCgPf2GKBudSpowFCD36AlPLmkjVbmQmoD8MPZSGhuA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vamsi Ayiluri\\Git_Repos\\CSharp\\ConsoleApp\\DataModels\\DataModels.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Vamsi Ayiluri\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\Vamsi Ayiluri\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

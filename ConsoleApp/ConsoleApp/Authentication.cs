@@ -152,5 +152,36 @@ namespace ConsoleApp
         {
             Environment.Exit(0);
         }
+
+        public void GetData()
+        {
+            User userObj = new User();
+            InputOutput inputOutput = new InputOutput();
+
+            inputOutput.Display(Literals.username);
+            userObj.Username = inputOutput.ReadInput();
+
+            IBALAuthentication ibalobj = businessLogicFactory.GetBALAuthObj();
+
+            try
+            {
+                User user = ibalobj.GetData(userObj.Username);
+
+                inputOutput.Display(Literals.username1);
+                inputOutput.Display(user.Username);
+                inputOutput.Display(Literals.password1);
+                inputOutput.Display(user.Password);
+                inputOutput.Display(Literals.email1);
+                inputOutput.Display(user.Email);
+            }
+
+            catch (Exception e)
+            {
+                inputOutput.Display(Literals.InvalidUsername);
+
+            }
+
+
+        }
     }
 }

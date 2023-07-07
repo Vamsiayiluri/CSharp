@@ -12,6 +12,7 @@ namespace DataLayer
         public bool ValidateUser(User userObj);
         public void UpdatePassword(User userObj);
         public bool ValidateUsername(string Username);
+        public BusinessModels.User GetData(string username);
 
     }
 }

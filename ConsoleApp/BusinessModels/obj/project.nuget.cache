@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "oIwR01miAhnQkSdrgK8VF0SsZYkWZmTlB+ygu8Ygox3g8pdSv2voeBIPGCfkK2SOVVFAPlIEVi/xCTLqTJ0wGg==",
+  "dgSpecHash": "cQmg9YU1dODhoGzXwL96pgH26ZE9Lo9mqyzzY/fHMndZqH2az5FswWcQAdia/U9BaTRbYYyqbM0v8xEGciy8aA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vamsi Ayiluri\\Git_Repos\\CSharp\\ConsoleApp\\BusinessModels\\BusinessModels.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Vamsi Ayiluri\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\Vamsi Ayiluri\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

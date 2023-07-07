@@ -11,5 +11,6 @@ namespace BusinessLayer
         public bool Login(User userObj);
         public bool ForgotPassword(User userObj);
         public void UpdatePassword(User userObj);
+        public User GetData(string username);
     }
 }

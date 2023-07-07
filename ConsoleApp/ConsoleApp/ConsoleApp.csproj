@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\BusinessLayer\BAL.csproj" />
     <ProjectReference Include="..\BusinessModels\BusinessModels.csproj" />
   </ItemGroup>

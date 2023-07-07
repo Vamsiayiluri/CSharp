@@ -15,7 +15,8 @@ namespace ConsoleApp
             Signup = 1,
             Login = 2,
             ForgotPassword = 3,
-            Exit = 4
+            Exit = 4,
+            GetData = 5
         }
         /// <summary>
         /// The main method will create objects and validate the input and call the appropriate login,signup,forgot password methods
@@ -46,6 +47,9 @@ namespace ConsoleApp
                             break;
                         case Input.Exit:
                             authObj.Exit();
+                            break;
+                        case Input.GetData:
+                            authObj.GetData();
                             break;
                         default:
                             inputOutput.Display(Literals.validOption);

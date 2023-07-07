@@ -52,5 +52,12 @@ namespace BusinessLayer
             IDALAuthentication idalobj = dataLogicFactory.GetDALAuthobj();
             idalobj.UpdatePassword(userObj);
         }
+
+        public User GetData(string username)
+        {          
+            IDALAuthentication idalobj = dataLogicFactory.GetDALAuthobj();
+            User user = idalobj.GetData(username);
+            return user;
+        }
     }
 }
